@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "id": "collis-test",
+    "version": "1.0.0",
+    "name": "Collis (Test)",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            {
+                "value": "net.mcbrawls.collis.test.CollisTest",
+                "adapter": "kotlin"
+            }
+        ]
+    },
+    "depends": {
+        "collis": "*"
+    }
+}

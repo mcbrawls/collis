@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "collis",
+	"version": "${version}",
+	"name": "Collis",
+	"description": "A library for creating server-side camera animation tracks.",
+	"authors": [
+		"Andante"
+	],
+	"contact": {
+		"sources": "https://github.com/mcbrawls/collis"
+	},
+	"license": "MIT",
+	"icon": "assets/collis/icon.png",
+	"environment": "*",
+	"mixins": [
+		"collis.mixins.json"
+	],
+	"accessWidener": "collis.accesswidener",
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/class_3222": [
+				"net/mcbrawls/collis/CollisPlayer"
+			]
+		}
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.3",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
