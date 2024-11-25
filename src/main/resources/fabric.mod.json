@@ -16,14 +16,15 @@
 	"mixins": [
 		"collis.mixins.json"
 	],
-	"accessWidener": "collis.accesswidener",
-	"custom": {
-		"loom:injected_interfaces": {
-			"net/minecraft/class_3222": [
-				"net/mcbrawls/collis/CollisPlayer"
-			]
-		}
+	"entrypoints": {
+		"main": [
+			{
+				"adapter": "kotlin",
+				"value": "net.mcbrawls.collis.Collis::onInitialize"
+			}
+		]
 	},
+	"accessWidener": "collis.accesswidener",
 	"depends": {
 		"fabricloader": "*",
 		"minecraft": "~1.21.3",

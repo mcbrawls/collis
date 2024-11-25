@@ -1,1 +1,4 @@
 accessWidener v2 named
+
+accessible method net/minecraft/entity/decoration/InteractionEntity setInteractionWidth (F)V
+accessible method net/minecraft/entity/decoration/InteractionEntity setInteractionHeight (F)V

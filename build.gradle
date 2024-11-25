@@ -16,6 +16,11 @@ repositories {
         name = "Andante"
         url  = "https://maven.andante.dev/releases/"
     }
+
+    maven {
+        name = "Nucleoid"
+        url  = "https://maven.nucleoid.xyz/"
+    }
 }
 
 sourceSets {
@@ -57,6 +62,9 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:$fabric_version"
 
     modImplementation "net.fabricmc:fabric-language-kotlin:$fabric_kotlin_version+kotlin.$kotlin_version"
+
+    include modImplementation ("eu.pb4:polymer-core:$polymer_version")
+    include modImplementation ("eu.pb4:polymer-virtual-entity:$polymer_version")
 
     testImplementation sourceSets.main.output
 }
