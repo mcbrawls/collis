@@ -108,7 +108,7 @@ publishing {
 
             pom {
                 name = "Collis"
-                description = "A library for creating server-side camera animation tracks."
+                description = "A library for creating server-side colliders."
                 url = "https://mcbrawls.net"
 
                 licenses {

@@ -3,7 +3,7 @@
 	"id": "collis",
 	"version": "${version}",
 	"name": "Collis",
-	"description": "A library for creating server-side camera animation tracks.",
+	"description": "A library for creating server-side colliders.",
 	"authors": [
 		"Andante"
 	],
