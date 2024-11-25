@@ -18,6 +18,8 @@ object Collis : ModInitializer {
             .dimensions(0.0f, 0.0f)
             .maxTrackingRange(2)
             .trackingTickInterval(10)
+            .disableSaving()
+            .disableSummon()
     )
 
     override fun onInitialize() {
