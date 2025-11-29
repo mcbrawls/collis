@@ -27,7 +27,7 @@ open class ColliEntity(
 
     override fun tick() {
         super.tick()
-        colli.collisionTick(this, world, boundingBox)
+        colli.collisionTick(this, entityWorld, boundingBox)
     }
 
     override fun getPolymerEntityType(context: PacketContext): EntityType<*> {

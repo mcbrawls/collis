@@ -1,10 +1,10 @@
 plugins {
-    id "fabric-loom" version "1.8-SNAPSHOT"
+    id "fabric-loom" version "1.13-SNAPSHOT"
     id "org.jetbrains.kotlin.jvm"
     id "maven-publish"
 }
 
-version = mod_version
+version = "$mod_version+$minecraft_version"
 group = maven_group
 
 base {
@@ -12,11 +12,6 @@ base {
 }
 
 repositories {
-    maven {
-        name = "Andante"
-        url  = "https://maven.andante.dev/releases/"
-    }
-
     maven {
         name = "Nucleoid"
         url  = "https://maven.nucleoid.xyz/"

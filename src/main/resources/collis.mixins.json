@@ -3,7 +3,6 @@
 	"package": "net.mcbrawls.collis.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
